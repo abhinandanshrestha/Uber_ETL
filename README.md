@@ -5,6 +5,14 @@ https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow
 # Data Model (Rough)
 ![Datamodel](data_model.jpeg)
 
+# To run:
+> 
+> pip install -r requirements.txt
+>
+
+> python etl.py
+>
+
 ## Once the ETL has been completed, a view has to be created for PowerBI dataset
 ```
 CREATE OR REPLACE VIEW analytics AS
